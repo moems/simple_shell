@@ -1,6 +1,7 @@
 #ifndef SHELL_H
 #define SHELL_H
 
+/* header files */
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -232,4 +233,4 @@ int replace_alias(info_t *);
 int replace_vars(info_t *);
 int replace_string(char **, char *);
 
-#endif
+#endif /* #ifndef SHELL_H */
