@@ -25,6 +25,7 @@ int _myexit(info_t *info)
 		info->err_num = _erratoi(info->argv[1]);
 		return (-2);
 	}
+
 	info->err_num = -1;
 	return (-2);
 }
@@ -33,7 +34,7 @@ int _myexit(info_t *info)
  * _mycd - changes the current directory of the process
  * @info: Structure containing potential arguments. Used to maintain
  *          constant function prototype.
- *  Return: Always 0
+ *  Return: Always (0)
  */
 int _mycd(info_t *info)
 {
@@ -93,5 +94,6 @@ int _myhelp(info_t *info)
 	_puts("help call works. Function not yet implemented \n");
 	if (0)
 		_puts(*arg_array); /* temp att_unused workaround */
+
 	return (0);
 }

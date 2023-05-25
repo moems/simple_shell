@@ -2,7 +2,7 @@
 
 /**
  *_eputs - prints an input string
- * @str: the string to be printed
+ * @str: the string to be printed.
  *
  * Return: Nothing
  */
@@ -38,6 +38,7 @@ int _eputchar(char c)
 	}
 	if (c != BUF_FLUSH)
 		buf[i++] = c;
+
 	return (1);
 }
 
